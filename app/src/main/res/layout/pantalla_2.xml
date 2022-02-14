@@ -162,7 +162,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/azul"
         android:layout_marginBottom="15dp"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:text="Más idiomas" />
 
 
