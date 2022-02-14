@@ -22,23 +22,22 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:textSize="18sp"
         android:textColor="@color/black"
-        android:text="Numero de celular o correo electronico" />
+        android:text="Número de celular o correo electrónico" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:textSize="25sp"
-        android:inputType="textPersonName"
-        android:text="" />
+        />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:textSize="18sp"
         android:textColor="@color/black"
         android:text="Contraseña" />
@@ -47,16 +46,16 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:textSize="25sp"
         android:inputType="textPersonName"
-        android:text="" />
+        />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#5693FE"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="8dp"
@@ -66,17 +65,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/azul"
-        android:textSize="18dp"
-        android:text="¿olvidaste tu contraseña?" />
+        android:textSize="18sp"
+        android:text="¿Olvidaste tu contraseña?" />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
         android:layout_marginTop="15dp">
 
         <TextView
-            android:id="@+id/tvText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -99,7 +96,6 @@
     </RelativeLayout>
 
     <Button
-        android:id="@+id/button11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
@@ -112,7 +108,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:textSize="18sp"
         android:layout_marginBottom="15dp"
         android:textColor="@color/black"
@@ -122,51 +118,46 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/azul"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:layout_marginBottom="15dp"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:text="English (US)" />
 
     <TextView
-        android:id="@+id/textView12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/azul"
-        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginBottom="15dp"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:text="Français (France)" />
 
     <TextView
-        android:id="@+id/textView13"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/azul"
-        android:textSize="18dp"
-        android:layout_marginLeft="8dp"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
         android:layout_marginBottom="15dp"
         android:text="Português (Brasil)" />
 
     <TextView
-        android:id="@+id/textView14"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/azul"
-        android:textSize="18dp"
-        android:layout_marginLeft="8dp"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
         android:layout_marginBottom="15dp"
-        android:text="中国人 (中国)" />
+        android:text="中文(简体)" />
     <TextView
-        android:id="@+id/textView15"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/azul"
-        android:textSize="18dp"
-        android:layout_marginLeft="8dp"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
         android:layout_marginBottom="15dp"
         android:text="Italiano" />
     <TextView
-        android:id="@+id/textView16"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/azul"
